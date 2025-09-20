@@ -130,8 +130,8 @@ This chart provides a summary of performance across four key metrics, rated on a
 
 Our analysis concludes that **Absolute Positional Encoding (APE)** is significantly more effective and efficient for the tested Neural Machine Translation task.
 
-|                            Training Efficiency                            |                         Inference Speed                         |                                 Output Control                                 |
-| :------------------------------------------------------------------------: | :--------------------------------------------------------------: | :----------------------------------------------------------------------------: |
-| `<font size="+2">`**25%**`</font>`Lower validation loss with APE | `<font size="+2">`**42%**`</font>`Faster TTFT with APE | `<font size="+2">`**6x** `</font>`More concise translations with APE |
+|                   Training Efficiency                   |                         Inference Speed                         |                                 Output Control                                 |
+| :-----------------------------------------------------: | :--------------------------------------------------------------: | :----------------------------------------------------------------------------: |
+|  **25%**`</font>`Lower validation loss with APE | `<font size="+2">`**42%**`</font>`Faster TTFT with APE | `<font size="+2">`**6x** `</font>`More concise translations with APE |
 
 The results strongly suggest that for practical NMT applications where performance and resource efficiency are critical, Absolute Positional Encoding is the superior choice over Rotary Position Embedding.
